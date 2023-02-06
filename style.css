@@ -1,0 +1,85 @@
+* {
+    background-color: rgb(113, 106, 106);
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.container {
+border-radius: 20px;
+height: 600px;
+width: 400px;
+background-color: rgb(40, 38, 38);
+display: flex;
+justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.display    {
+    margin-top: 20px;
+    background-color: #014d01;
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+.btns  {
+    margin-top: 20px;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(58, 59, 58);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.ac {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dv {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.eq {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.btn {
+    background: #263238;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.btn:hover {
+transition: 0.5s;
+    color: #861414;
+}
+
